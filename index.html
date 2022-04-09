@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/159d0e16c5.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="https://www.3fansite.fr/wp-content/uploads/2022/02/favicon.png"/>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="game.js"></script>
+    <title>Pop it!</title>
+<body>
+<main>
+    <div id="rules">
+        <span class="styles">
+            <div class="rules-inner">
+          <h1>Les règles de "<span>Pop it!</span>"</h1>
+          <div class="infos">
+          <p>Le but du jeu est d'éclater le plus de smileys <b>tristes</b> possible !</p>
+          <p> Attention, si un smiley <b>heureux</b> est touché, c'est perdu !</p>
+          </div>
+          <h4>Et si on faisait connaissance ?</h4>
+          <form id="submit" action="" class="box">
+          <input id="inputtext" type="text" placeholder="Pseudo">
+          <h4>On commence ?</h4>
+        <input id="buttonCool" class="vasy" type="submit" value="Let's go!">
+        </form>
+        </div>
+        </span>
+    </div>
+
+
+<audio id="musicGame">
+  <source src="" type="audio/mpeg">
+</audio>
+
+    <div id="lose">
+    </div>
+
+    <div class="header">
+      <div class="header-inner">
+    <div class="score">
+        Score : 
+    </div>
+     <h3 class="blue">0</h3>
+    <div class="urname">
+
+    </div>
+
+    <div class="jumbotron">
+        <div class="timer">
+          Temps écoulé : <span class="color"><span class="minutes">00</span> : <span class="seconds">00</span></span>
+        </div>
+        <div class="timer-buttons">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input id="theme" type="submit" value="Dark Theme : ON / OFF">
+</main>
+</body>
+</html>
+
+
