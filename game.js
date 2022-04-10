@@ -1,7 +1,5 @@
 const counterDisplay = document.querySelector("h3");
 let counter = 0;
-const happy = document.querySelector(".bubbleright");
-const sad = document.querySelector(".bubblewrong");
 const color = document.querySelector(".color");
 const rule = document.getElementById("rules");
 const valider = document.getElementById("buttonCool");
@@ -214,7 +212,6 @@ valider.addEventListener("click", (e) => {
 darkTheme.addEventListener("click", (e) => {
   main.classList.toggle("bodyDark");
   headerinner.classList.toggle("headerInnerDark");
-  sad.classList.toggle("bubblewrong");
 });
 
 const bubblesWrongTwo = () => {
